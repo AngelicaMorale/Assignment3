@@ -12,6 +12,15 @@ export default function Page() {
                 <Nav />
 
                 <div className="col-9">
+                    <img className="d-block w-100 mb-3" src="https://i.pinimg.com/736x/a0/e3/fb/a0e3fb0cdfe47fb1e08cf65f478c716b.jpg" />
+                    <h1>Welcome</h1>
+                    <p>
+                        Explore our meticulously sourced beans, learn about our roasting process, and discover unique flavor profiles. Join us on a journey from farm to cup, and experience the true essence of coffee like never before!
+                    </p>
+                </div>
+
+
+                <div className="col-9">
                     <img className="d-block w-100 mb-3" src="https://fastly.picsum.photos/id/251/1280/720.jpg?hmac=YDyCcHsQDDzvzCfZ-MLi2fr2pFqpoH9OqSqmJFBwV7w" />
                     <h1>Welcome</h1>
                     <p>
@@ -19,6 +28,7 @@ export default function Page() {
                     </p>
                 </div>
 
+    
             </div>
         </div>
 

@@ -3,6 +3,12 @@ import React from "react";
 
 export default function Nav() {
     return <>
+
+        
+
+
+
+
         <div className="col-3">
             <div className="list-group">
                 <Link href="/" className="list-group-item list-group-item-action">
@@ -10,6 +16,12 @@ export default function Nav() {
                 </Link>
                 <Link href="/about" className="list-group-item list-group-item-action">
                     About Us
+                </Link>
+                <Link href="/about" className="list-group-item list-group-item-action">
+                    Classes
+                </Link>
+                <Link href="/about" className="list-group-item list-group-item-action">
+                    Pricing
                 </Link>
                 <Link href="/contact" className="list-group-item list-group-item-action">
                     Contact Us
